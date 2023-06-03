@@ -18,6 +18,7 @@ Required parameters for the job are:
 
 Parameters description:
 --CDC_FOLDER: Amazon S3 path where CDC changes are being replicated by services such as Amazon DMS or any other service that includes the operation column (I, U, D).
+
 --CURATED_BUCKET: Amazon S3 path where the Hudi dataset is located.
 --FULL_LOAD_FOLDER: Prefix that should be added to the 
 --PARTITION_KEY: Name of the column that will be used as partition key for the hudi table. If no partition is defined, include the word None.
